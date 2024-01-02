@@ -99,7 +99,7 @@ params:
 
         # Waline client configuration see: https://waline.js.org/en/reference/component.html
         waline:
-            serverURL: "app-production-dfd0.up.railway.app"
+            serverURL: "https://app-production-dfd0.up.railway.app"
             lang:
             pageview: true
             emoji:
