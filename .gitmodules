@@ -1,0 +1,6 @@
+[submodule "hanzhongzi.github.io/themes/hugo-theme-stack"]
+	path = hanzhongzi.github.io/themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack/
+[submodule "hanzhongzi.github.io/public"]
+	path = hanzhongzi.github.io/public
+	url = https://github.com/hanzhongzi/hanzhongzi.github.io.git
