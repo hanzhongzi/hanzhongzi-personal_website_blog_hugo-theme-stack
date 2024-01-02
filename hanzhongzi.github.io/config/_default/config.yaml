@@ -102,16 +102,19 @@ params:
         waline:
             serverURL: "https://app-production-dfd0.up.railway.app"
             lang:
+            reaction: true
+            reactionTitle: "你认为这篇文章怎么样？"
+            reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
             pageview: true
+            comment: true
             emoji:
-                 [
-      '//unpkg.com/@waline/emojis@1.1.0/bilibili',
-      '//unpkg.com/@waline/emojis@1.1.0/weibo',
-      'cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
-      'cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
-      'cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
-      'cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba',
-                 ]
+                 - '//unpkg.com/@waline/emojis@1.1.0/bilibili'
+                 - '//unpkg.com/@waline/emojis@0.1.0/weibo'
+                 - 'cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji'
+                 - 'cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus'
+                 - 'cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq'
+                 - 'cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba'
+                 
             requiredMeta:
                 - name
                 - email
@@ -119,7 +122,7 @@ params:
             locale:
                 admin: Admin
                 placeholder:  "请文明发言哟 ヾ(≧▽≦*)o"
-
+                sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
         twikoo:
             envId:
             region:
