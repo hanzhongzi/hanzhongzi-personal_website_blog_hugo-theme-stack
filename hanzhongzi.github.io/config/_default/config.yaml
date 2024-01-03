@@ -54,7 +54,7 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 对什么都感兴趣♪(･ω･)ﾉ
         avatar:
             enabled: true
             local: true
@@ -114,7 +114,7 @@ params:
                  - 'cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus'
                  - 'cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq'
                  - 'cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba'
-                 
+
             requiredMeta:
                 - name
                 - email
@@ -207,7 +207,7 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/hanzhongzi
           params:
               icon: brand-github
 
