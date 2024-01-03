@@ -2,7 +2,7 @@
 title: "Etcd 一篇文章搞定"
 description: ETCD 原理、安装部署、操作
 date: 2024-01-02T16:55:17+08:00
-image: 
+image: cover.jpg 
 math: 
 license: 
 hidden: false

@@ -2,7 +2,7 @@
 title: "Ansible 一篇文章搞定"
 description: Ansible 介绍和基本操作 
 date: 2019-07-18T16:09:24+08:00
-image: 
+image: cover.jpg 
 math: 
 license: 
 hidden: false
